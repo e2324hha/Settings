@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>設定画面</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>設定画面</h1>
+
+    <label for="userName">ユーザーを選択してください:</label>
+    <select id="userName" aria-describedby="userMessage1">
+        <option value="">選択して下さい</option>
+    </select>
+    <p id="userMessage1"></p>
+
+    <label for="nextOptions">次のオプション:</label>
+    <select id="nextOptions" disabled>
+        <option value="">最初にユーザーを選んでください</option>
+    </select>
+    <p id="userMessage2"></p>
+
+    <div id="timeInputsContainer">
+        <label>時間を選択してください:</label>
+    </div>
+</body>
+
+</html>
